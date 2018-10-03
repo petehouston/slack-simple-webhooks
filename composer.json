@@ -1,0 +1,27 @@
+{
+    "name": "petehouston/slack-simple-webhooks",
+    "description": "Simple Slack Webhook API.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pete Houston",
+            "email": "contact@petehouston.com"
+        }
+    ],
+    "require": {
+        "ext-json": "*",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "6.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Petehouston\\Slack\\": "src"
+        },
+        "exclude-from-classmap": [
+            "/tests/"
+        ]
+    }
+}
